@@ -70,6 +70,12 @@ const Contact = () => {
                   Send Email
                 </a>
               </Button>
+              <Button size="lg" variant="secondary" className="hover:scale-105 transition-all">
+                <a href="https://www.linkedin.com/in/gaurang727/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                  <Linkedin className="w-5 h-5" />
+                  LinkedIn
+                </a>
+              </Button>
             </div>
           </div>
         </div>

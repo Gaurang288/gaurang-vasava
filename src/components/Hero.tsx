@@ -53,6 +53,11 @@ const Hero = () => {
               <Phone className="w-5 h-5" />
               <span className="text-sm">+91-8460004078</span>
             </a>
+            <span className="text-muted-foreground">•</span>
+            <a href="https://www.linkedin.com/in/gaurang727/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-foreground hover:text-primary transition-colors">
+              <Linkedin className="w-5 h-5" />
+              <span className="text-sm">LinkedIn</span>
+            </a>
           </div>
         </div>
       </div>

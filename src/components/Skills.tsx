@@ -5,32 +5,22 @@ const Skills = () => {
     {
       icon: <Code2 className="w-6 h-6" />,
       title: "Languages",
-      skills: ["Java", "Kotlin", "Dart (Flutter)"]
+      skills: ["Java", "Kotlin", "Flutter"]
     },
     {
       icon: <Smartphone className="w-6 h-6" />,
       title: "Mobile Development",
-      skills: ["Android SDK", "Flutter", "Jetpack Components", "MVVM Architecture"]
+      skills: ["Android Components", "MVVM", "Jetpack Components"]
     },
     {
       icon: <Database className="w-6 h-6" />,
       title: "Backend & APIs",
-      skills: ["Retrofit", "Socket.io", "Firebase", "Room Database", "JSON Parsing"]
+      skills: ["Retrofit", "JSON Parsing", "Socket.io", "Firebase"]
     },
     {
       icon: <Cpu className="w-6 h-6" />,
-      title: "IoT & Hardware",
-      skills: ["BLE (Bluetooth Low Energy)", "IoT Integration", "NFC", "Beacon Technology"]
-    },
-    {
-      icon: <Wifi className="w-6 h-6" />,
-      title: "Streaming & Media",
-      skills: ["ExoPlayer", "Agora.io", "M3U8 Playlists", "Media Streaming"]
-    },
-    {
-      icon: <CreditCard className="w-6 h-6" />,
-      title: "Integration",
-      skills: ["Payment Gateways", "Third-party APIs", "OTA Updates", "FTP"]
+      title: "IoT & Integration",
+      skills: ["IoT", "Payment Gateway", "Agora.io"]
     }
   ];
 
@@ -72,16 +62,11 @@ const Skills = () => {
         
         <div className="mt-12 max-w-4xl mx-auto">
           <div className="gradient-card rounded-xl p-6 shadow-card border border-border">
-            <h3 className="text-xl font-semibold mb-4 text-center">Additional Tools & Technologies</h3>
+            <h3 className="text-xl font-semibold mb-4 text-center">Version Control</h3>
             <div className="flex flex-wrap gap-2 justify-center">
-              {["Git", "GetX", "RxBle", "DFU (OTA)", "Jetpack Compose", "Sealed Classes", "Coroutines"].map((tool, index) => (
-                <span 
-                  key={index}
-                  className="px-4 py-2 bg-accent/10 border border-accent/20 rounded-lg text-sm font-medium text-accent hover:bg-accent/20 transition-colors"
-                >
-                  {tool}
-                </span>
-              ))}
+              <span className="px-4 py-2 bg-accent/10 border border-accent/20 rounded-lg text-sm font-medium text-accent hover:bg-accent/20 transition-colors">
+                Git
+              </span>
             </div>
           </div>
         </div>
