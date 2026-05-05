@@ -4,19 +4,28 @@ const Experience = () => {
   const experiences = [
     {
       company: "3SHULMOTORS PVT LTD",
-      role: "Mobile Application Developer",
+      role: "Senior Software Engineer",
       period: "May 2025 – Present",
       location: "Ahmedabad, Gujarat",
-      description: []
+      description: [
+        "Integrated BLE communication for reliable hardware interaction and low-latency data exchange",
+        "Developed reusable UI components improving development speed and consistency",
+        "Implemented Shorebird for Flutter OTA updates, enabling instant bug fixes without Play Store releases",
+        "Collaborated with backend teams to design efficient APIs and improve response times",
+        "Conducted code reviews and mentored developers while enforcing clean architecture principles",
+        "Optimized rendering and state management improving performance across low-end devices"
+      ]
     },
     {
       company: "Technource",
-      role: "Mobile Application Developer",
+      role: "Senior Android & Flutter Developer",
       period: "February 2024 – April 2025",
       location: "Ahmedabad, Gujarat",
       description: [
-        "Developed and maintained mobile applications using Flutter with GetX architecture",
-        "Actively participated in troubleshooting and debugging to ensure high-quality deliverables"
+        "Handled client requirements, planning, and end-to-end delivery of Android and Flutter apps",
+        "Built scalable applications and collaborated with backend teams for API integration",
+        "Maintained code quality through reviews and supported QA for stable releases",
+        "Managed Play Store and App Store deployments while continuously improving performance"
       ]
     },
     {
