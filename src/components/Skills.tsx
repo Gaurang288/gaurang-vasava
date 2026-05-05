@@ -1,46 +1,26 @@
-import { Code2, Smartphone, Database, Cpu, CreditCard, Wrench, Sparkles, GitBranch } from "lucide-react";
+import { Code2, Smartphone, Database, Cpu, Wifi, CreditCard } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
     {
       icon: <Code2 className="w-6 h-6" />,
       title: "Languages",
-      skills: ["Java", "Kotlin", "Dart"]
+      skills: ["Java", "Kotlin", "Flutter"]
     },
     {
       icon: <Smartphone className="w-6 h-6" />,
-      title: "Mobile Frameworks",
-      skills: ["Native Android", "Flutter", "MVVM", "Clean Architecture", "Jetpack Components"]
-    },
-    {
-      icon: <Cpu className="w-6 h-6" />,
-      title: "IoT & Communication",
-      skills: ["BLE", "NFC", "MQTT", "Classic Bluetooth", "Socket.io", "FTP", "OTA"]
+      title: "Mobile Development",
+      skills: ["Android Components", "MVVM", "Jetpack Components"]
     },
     {
       icon: <Database className="w-6 h-6" />,
-      title: "Backend & Services",
-      skills: ["Retrofit", "JSON Parsing", "Firebase", "Agora.io", "REST APIs"]
+      title: "Backend & APIs",
+      skills: ["Retrofit", "JSON Parsing", "Socket.io", "Firebase"]
     },
     {
-      icon: <CreditCard className="w-6 h-6" />,
-      title: "Payments",
-      skills: ["Cashfree", "Stripe", "In-App Purchases"]
-    },
-    {
-      icon: <Sparkles className="w-6 h-6" />,
-      title: "AI & Productivity",
-      skills: ["ChatGPT", "Gemini", "Antigravity"]
-    },
-    {
-      icon: <Wrench className="w-6 h-6" />,
-      title: "Tools & IDEs",
-      skills: ["Android Studio", "Xcode", "VS Code", "Figma", "Photoshop", "Adobe XD"]
-    },
-    {
-      icon: <GitBranch className="w-6 h-6" />,
-      title: "Version Control & PM",
-      skills: ["Git", "GitHub", "GitLab", "Bitbucket", "Jira", "Trello", "Asana"]
+      icon: <Cpu className="w-6 h-6" />,
+      title: "IoT & Integration",
+      skills: ["IoT", "Payment Gateway", "Agora.io"]
     }
   ];
 
@@ -80,6 +60,16 @@ const Skills = () => {
           ))}
         </div>
         
+        <div className="mt-12 max-w-4xl mx-auto">
+          <div className="gradient-card rounded-xl p-6 shadow-card border border-border">
+            <h3 className="text-xl font-semibold mb-4 text-center">Version Control</h3>
+            <div className="flex flex-wrap gap-2 justify-center">
+              <span className="px-4 py-2 bg-accent/10 border border-accent/20 rounded-lg text-sm font-medium text-accent hover:bg-accent/20 transition-colors">
+                Git
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

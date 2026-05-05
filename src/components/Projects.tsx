@@ -4,30 +4,6 @@ import { Button } from "@/components/ui/button";
 const Projects = () => {
   const projects = [
     {
-      title: "Secure Authentication App – 2FA Authenticator",
-      description: "A secure authentication app similar to Google Authenticator for generating time-based one-time passwords (TOTP).",
-      tech: ["Kotlin", "Android", "Encryption", "In-App Purchases"],
-      highlights: [
-        "Built native Android app with focus on security, performance, and reliability",
-        "Integrated in-app purchases for premium features and subscription management",
-        "Designed secure local storage and encryption mechanisms for sensitive user data",
-        "Smooth UX with fast code generation and full offline support"
-      ],
-      featured: true
-    },
-    {
-      title: "SMX Drives – EV Motor Controller",
-      description: "BLE-based mobile app to connect with EV motor controllers for real-time monitoring and diagnostics.",
-      tech: ["Kotlin", "BLE", "MVVM"],
-      highlights: [
-        "Connected to EV controllers for real-time monitoring and diagnostics",
-        "Implemented controller configuration and parameter tuning from the app",
-        "Stable BLE communication and efficient data handling",
-        "Scalable structure for handling multiple controller parameters"
-      ],
-      featured: true
-    },
-    {
       title: "Truth Radio",
       description: "A streaming app for live and on-demand audio/video content with adaptive playback and offline downloads.",
       tech: ["Kotlin", "ExoPlayer", "Agora.io", "Room", "Retrofit"],
@@ -165,16 +141,6 @@ const Projects = () => {
         "Designed for high-value asset monitoring"
       ],
       playStoreUrl: "https://play.google.com/store/apps/details?id=com.kycs"
-    },
-    {
-      title: "NC Health Hub",
-      description: "Healthcare application enabling patient–doctor connectivity with integrated payments.",
-      tech: ["Kotlin", "Cashfree", "Retrofit", "Firebase"],
-      highlights: [
-        "Developed API integrations for patient–doctor connectivity",
-        "Integrated Cashfree payment gateway for secure transactions",
-        "Ensured smooth performance and reliable user experience"
-      ]
     }
   ];
 

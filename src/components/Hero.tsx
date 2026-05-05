@@ -26,12 +26,12 @@ const Hero = () => {
           </h1>
           
           <p className="text-2xl md:text-3xl text-muted-foreground mb-4 font-medium">
-            Senior Android Developer | Kotlin | Flutter | IoT (BLE, NFC, MQTT)
+            Android & Flutter Developer
           </p>
           
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
-            5+ years building scalable, high-performance Android and cross-platform applications.
-            Specialized in IoT mobile solutions with BLE, NFC, MQTT, and OTA integrations.
+            Crafting innovative mobile solutions with 4+ years of experience in Android development and Flutter.
+            Specializing in IoT, BLE integration, and high-performance applications.
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center mb-8">
