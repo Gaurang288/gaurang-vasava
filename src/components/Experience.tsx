@@ -3,20 +3,29 @@ import { Briefcase } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      company: "3SHULMOTORS PVT LTD",
-      role: "Mobile Application Developer",
+      company: "3Shul Motors Pvt Ltd",
+      role: "Senior Software Engineer",
       period: "May 2025 – Present",
       location: "Ahmedabad, Gujarat",
-      description: []
+      description: [
+        "Integrated BLE communication for reliable hardware interaction and low-latency data exchange",
+        "Developed reusable UI components improving development speed and consistency",
+        "Implemented Shorebird for Flutter OTA updates, enabling instant fixes without Play Store releases",
+        "Collaborated with backend teams to design efficient APIs and improve response times",
+        "Conducted code reviews and mentored developers while enforcing clean architecture principles",
+        "Optimized rendering and state management improving performance across low-end devices"
+      ]
     },
     {
-      company: "Technource",
-      role: "Mobile Application Developer",
+      company: "Technource Pvt Ltd",
+      role: "Senior Android & Flutter Developer",
       period: "February 2024 – April 2025",
       location: "Ahmedabad, Gujarat",
       description: [
-        "Developed and maintained mobile applications using Flutter with GetX architecture",
-        "Actively participated in troubleshooting and debugging to ensure high-quality deliverables"
+        "Handled client requirements, planning, and delivery of Android and Flutter apps end-to-end",
+        "Built scalable applications and collaborated with backend teams for API integration",
+        "Maintained code quality through reviews and best practices, supporting team and QA",
+        "Managed Play Store and App Store deployments while continuously improving performance"
       ]
     },
     {
@@ -25,28 +34,33 @@ const Experience = () => {
       period: "September 2022 – January 2024",
       location: "Ahmedabad, Gujarat",
       description: [
-        "Contributed to Truth Radio, a streaming application for audio and video content",
-        "Utilized Kotlin and ExoPlayer to handle media streaming and downloads",
-        "Enhanced IoT capabilities in existing applications through BLE connection improvements"
+        "Worked on R&D projects involving ExoPlayer for streaming and BLE for IoT applications",
+        "Handled requirement gathering, estimation, testing, and coordination with firmware teams for BLE, FTP and audio transfer",
+        "Implemented solutions using RxBLE and Room DB, managing multiple BLE connections",
+        "Supported BA with technical inputs for proposals"
       ]
     },
     {
-      company: "SpryBit",
+      company: "Sprybit",
       role: "Android Developer",
       period: "February 2022 – August 2022",
       location: "Ahmedabad, Gujarat",
       description: [
-        "Improved performance and added new features to IoT-based applications using Kotlin"
+        "Improved performance and stability of BLE-based Android applications by fixing critical bugs",
+        "Implemented MVVM architecture and Jetpack Navigation for better app structure",
+        "Optimized BLE communication flow and ensured reliable data handling across multiple characteristics"
       ]
     },
     {
-      company: "Bluepixel Technologies LLP",
+      company: "Bluepixel",
       role: "Android Developer",
       period: "November 2020 – February 2022",
       location: "Ahmedabad, Gujarat",
       description: [
-        "Delivered successful mobile solutions by implementing efficient API integration and Room DB",
-        "Created BLE communication and custom views for seamless user interaction"
+        "Developed BLE-based Android applications including scanning, connection, and real-time communication",
+        "Worked on API integration, custom views, responsive UI, theming, and localization",
+        "Implemented MVVM architecture ensuring clean, maintainable code structure",
+        "Conducted R&D on NFC (N-Tag256) and managed Play Store releases and deployments"
       ]
     },
     {
@@ -55,8 +69,9 @@ const Experience = () => {
       period: "September 2019 – March 2020",
       location: "Ahmedabad, Gujarat",
       description: [
-        "Developed Android applications with Java",
-        "Implemented features like API integration and user interface design"
+        "Learned Android development fundamentals and API integration using Retrofit in Java",
+        "Built UI layouts and gained hands-on experience handling API responses",
+        "Collaborated with the team to understand development practices and improve coding skills"
       ]
     }
   ];
