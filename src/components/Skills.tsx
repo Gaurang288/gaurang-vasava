@@ -1,28 +1,41 @@
-import { Code2, Smartphone, Database, Cpu, Wifi, CreditCard } from "lucide-react";
+import { Code2, Smartphone, Database, Cpu, CreditCard, Sparkles, Wrench, GitBranch } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
     {
       icon: <Code2 className="w-6 h-6" />,
       title: "Languages",
-      skills: ["Java", "Kotlin", "Flutter"]
+      skills: ["Java", "Kotlin", "Dart"]
     },
     {
       icon: <Smartphone className="w-6 h-6" />,
-      title: "Mobile Development",
-      skills: ["Android Components", "MVVM", "Jetpack Components"]
-    },
-    {
-      icon: <Database className="w-6 h-6" />,
-      title: "Backend & APIs",
-      skills: ["Retrofit", "JSON Parsing", "Socket.io", "Firebase"]
+      title: "Mobile Frameworks & Architecture",
+      skills: ["Native Android", "Flutter", "MVVM", "Clean Architecture", "Jetpack Components"]
     },
     {
       icon: <Cpu className="w-6 h-6" />,
-      title: "IoT & Integration",
-      skills: ["IoT", "Payment Gateway", "Agora.io"]
+      title: "IoT & Communication",
+      skills: ["BLE", "NFC", "MQTT", "Socket.io", "Classic Bluetooth", "FTP", "OTA"]
+    },
+    {
+      icon: <Database className="w-6 h-6" />,
+      title: "Backend & Services",
+      skills: ["Retrofit", "JSON Parsing", "Firebase", "Agora.io", "REST APIs"]
+    },
+    {
+      icon: <CreditCard className="w-6 h-6" />,
+      title: "Payments",
+      skills: ["Cashfree", "Stripe", "In-App Purchases"]
+    },
+    {
+      icon: <Sparkles className="w-6 h-6" />,
+      title: "AI & Productivity",
+      skills: ["ChatGPT", "Gemini", "Antigravity"]
     }
   ];
+
+  const tools = ["Android Studio", "Xcode", "Visual Studio", "Figma", "Photoshop", "Adobe XD"];
+  const versionControl = ["Git", "GitHub", "GitLab", "Bitbucket", "Jira", "Trello", "Asana"];
 
   return (
     <section id="skills" className="py-20">
@@ -60,13 +73,31 @@ const Skills = () => {
           ))}
         </div>
         
-        <div className="mt-12 max-w-4xl mx-auto">
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
           <div className="gradient-card rounded-xl p-6 shadow-card border border-border">
-            <h3 className="text-xl font-semibold mb-4 text-center">Version Control</h3>
-            <div className="flex flex-wrap gap-2 justify-center">
-              <span className="px-4 py-2 bg-accent/10 border border-accent/20 rounded-lg text-sm font-medium text-accent hover:bg-accent/20 transition-colors">
-                Git
-              </span>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="p-2 bg-primary/10 rounded-lg text-primary">
+                <Wrench className="w-6 h-6" />
+              </div>
+              <h3 className="text-xl font-semibold text-foreground">Tools & IDEs</h3>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {tools.map((t, i) => (
+                <span key={i} className="px-3 py-1 bg-secondary border border-border rounded-full text-sm text-foreground hover:bg-primary/10 hover:border-primary/50 transition-colors">{t}</span>
+              ))}
+            </div>
+          </div>
+          <div className="gradient-card rounded-xl p-6 shadow-card border border-border">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="p-2 bg-accent/10 rounded-lg text-accent">
+                <GitBranch className="w-6 h-6" />
+              </div>
+              <h3 className="text-xl font-semibold text-foreground">Version Control & Collaboration</h3>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {versionControl.map((t, i) => (
+                <span key={i} className="px-3 py-1 bg-secondary border border-border rounded-full text-sm text-foreground hover:bg-accent/10 hover:border-accent/50 transition-colors">{t}</span>
+              ))}
             </div>
           </div>
         </div>
